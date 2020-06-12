@@ -1,4 +1,9 @@
 class Heap:
+    '''
+    (n/2 - 1) --> the last node with leaves
+    2i + 1 ---> left leave node
+    2i + 2 ---> right lead node 
+    '''
     def __init__(self, lstr=None):
         self.heap = []
         if isinstance(lstr, list):
